@@ -1,0 +1,106 @@
+# react-use 🚀
+
+- [**Sensors**](./Sensors)
+  - [`useBattery`](./useBattery) &mdash; tracks device battery state. [demo](https://codesandbox.io/s/qlvn662zww)
+  - [`useGeolocation`](./useGeolocation) &mdash; tracks geo location state of user's device. [demo](https://streamich.github.io/react-use/?path=/story/sensors-usegeolocation--demo)
+  - [`useHover` and `useHoverDirty`](./useHover) &mdash; tracks mouse hover state of some element. [demo](https://codesandbox.io/s/zpn583rvx)
+  - [`useHash`](./useHash) &mdash; tracks location hash value. [demo](https://streamich.github.io/react-use/?path=/story/sensors-usehash--demo)
+  - [`useIdle`](./useIdle) &mdash; tracks whether user is being inactive.
+  - [`useIntersection`](./useIntersection) &mdash; tracks an HTML element's intersection. [demo](https://streamich.github.io/react-use/?path=/story/sensors-useintersection--demo)
+  - [`useKey`](./useKey), [`useKeyPress`](./useKeyPress), [`useKeyboardJs`](./useKeyboardJs), and [`useKeyPressEvent`](./useKeyPressEvent) &mdash; track keys. [demo](https://streamich.github.io/react-use/?path=/story/sensors-usekeypressevent--demo)
+  - [`useLocation`](./useLocation) and [`useSearchParam`](./useSearchParam) &mdash; tracks page navigation bar location state.
+  - [`useLongPress`](./useLongPress) &mdash; tracks long press gesture of some element.
+  - [`useMedia`](./useMedia) &mdash; tracks state of a CSS media query. [demo](https://streamich.github.io/react-use/?path=/story/sensors-usemedia--demo)
+  - [`useMediaDevices`](./useMediaDevices) &mdash; tracks state of connected hardware devices.
+  - [`useMotion`](./useMotion) &mdash; tracks state of device's motion sensor.
+  - [`useMouse` and `useMouseHovered`](./useMouse) &mdash; tracks state of mouse position. [demo](https://streamich.github.io/react-use/?path=/story/sensors-usemouse--docs)
+  - [`useMouseWheel`](./useMouseWheel) &mdash; tracks deltaY of scrolled mouse wheel. [demo](https://streamich.github.io/react-use/?path=/story/sensors-usemousewheel--docs)
+  - [`useNetworkState`](./useNetworkState) &mdash; tracks the state of browser's network connection. [demo](https://streamich.github.io/react-use/?path=/story/sensors-usenetworkstate--demo)
+  - [`useOrientation`](./useOrientation) &mdash; tracks state of device's screen orientation.
+  - [`usePageLeave`](./usePageLeave) &mdash; triggers when mouse leaves page boundaries.
+  - [`useScratch`](./useScratch) &mdash; tracks mouse click-and-scrub state.
+  - [`useScroll`](./useScroll) &mdash; tracks an HTML element's scroll position. [demo](https://streamich.github.io/react-use/?path=/story/sensors-usescroll--docs)
+  - [`useScrolling`](./useScrolling) &mdash; tracks whether HTML element is scrolling.
+  - [`useStartTyping`](./useStartTyping) &mdash; detects when user starts typing.
+  - [`useWindowScroll`](./useWindowScroll) &mdash; tracks `Window` scroll position. [demo](https://streamich.github.io/react-use/?path=/story/sensors-usewindowscroll--docs)
+  - [`useWindowSize`](./useWindowSize) &mdash; tracks `Window` dimensions. [demo](https://codesandbox.io/s/m7ln22668)
+  - [`useMeasure`](./useMeasure) and [`useSize`](./useSize) &mdash; tracks an HTML element's dimensions. [demo](https://streamich.github.io/react-use/?path=/story/sensors-usemeasure--demo)
+  - [`createBreakpoint`](./createBreakpoint) &mdash; tracks `innerWidth`
+  - [`useScrollbarWidth`](./useScrollbarWidth) &mdash; detects browser's native scrollbars width. [demo](https://streamich.github.io/react-use/?path=/story/sensors-usescrollbarwidth--demo)
+  - [`usePinchZoom`](./usePinchZoom) &mdash; tracks pointer events to detect pinch zoom in and out status. [demo](https://streamich.github.io/react-use/?path=/story/sensors-usePinchZoom--demo)
+- [**UI**](./UI)
+  - [`useAudio`](./useAudio) &mdash; plays audio and exposes its controls. [demo](https://codesandbox.io/s/2o4lo6rqy)
+  - [`useClickAway`](./useClickAway) &mdash; triggers callback when user clicks outside target area.
+  - [`useCss`](./useCss) &mdash; dynamically adjusts CSS.
+  - [`useDrop` and `useDropArea`](./useDrop) &mdash; tracks file, link and copy-paste drops.
+  - [`useFullscreen`](./useFullscreen) &mdash; display an element or video full-screen. [demo](https://streamich.github.io/react-use/?path=/story/ui-usefullscreen--demo)
+  - [`useSlider`](./useSlider) &mdash; provides slide behavior over any HTML element. [demo](https://streamich.github.io/react-use/?path=/story/ui-useslider--demo)
+  - [`useSpeech`](./useSpeech) &mdash; synthesizes speech from a text string. [demo](https://codesandbox.io/s/n090mqz69m)
+  - [`useVibrate`](./useVibrate) &mdash; provide physical feedback using the [Vibration API](https://developer.mozilla.org/en-US/docs/Web/API/Vibration_API). [demo](https://streamich.github.io/react-use/?path=/story/ui-usevibrate--demo)
+  - [`useVideo`](./useVideo) &mdash; plays video, tracks its state, and exposes playback controls. [demo](https://streamich.github.io/react-use/?path=/story/ui-usevideo--demo)
+- [**Animations**](./Animations)
+  - [`useRaf`](./useRaf) &mdash; re-renders component on each `requestAnimationFrame`.
+  - [`useInterval`](./useInterval) and [`useHarmonicIntervalFn`](./useHarmonicIntervalFn) &mdash; re-renders component on a set interval using `setInterval`.
+  - [`useSpring`](./useSpring) &mdash; interpolates number over time according to spring dynamics.
+  - [`useTimeout`](./useTimeout) &mdash; re-renders component after a timeout.
+  - [`useTimeoutFn`](./useTimeoutFn) &mdash; calls given function after a timeout. [demo](https://streamich.github.io/react-use/?path=/story/animation-usetimeoutfn--demo)
+  - [`useTween`](./useTween) &mdash; re-renders component, while tweening a number from 0 to 1. [demo](https://codesandbox.io/s/52990wwzyl)
+  - [`useUpdate`](./useUpdate) &mdash; returns a callback, which re-renders component when called.
+- [**Side-effects**](./Side-effects)
+  - [`useAsync`](./useAsync), [`useAsyncFn`](./useAsyncFn), and [`useAsyncRetry`](./useAsyncRetry) &mdash; resolves an `async` function.
+  - [`useBeforeUnload`](./useBeforeUnload) &mdash; shows browser alert when user try to reload or close the page.
+  - [`useCookie`](./useCookie) &mdash; provides way to read, update and delete a cookie. [demo](https://streamich.github.io/react-use/?path=/story/side-effects-usecookie--demo)
+  - [`useCopyToClipboard`](./useCopyToClipboard) &mdash; copies text to clipboard.
+  - [`useDebounce`](./useDebounce) &mdash; debounces a function. [demo](https://streamich.github.io/react-use/?path=/story/side-effects-usedebounce--demo)
+  - [`useError`](./useError) &mdash; error dispatcher. [demo](https://streamich.github.io/react-use/?path=/story/side-effects-useerror--demo)
+  - [`useFavicon`](./useFavicon) &mdash; sets favicon of the page.
+  - [`useLocalStorage`](./useLocalStorage) &mdash; manages a value in `localStorage`.
+  - [`useLockBodyScroll`](./useLockBodyScroll) &mdash; lock scrolling of the body element.
+  - [`useRafLoop`](./useRafLoop) &mdash; calls given function inside the RAF loop.
+  - [`useSessionStorage`](./useSessionStorage) &mdash; manages a value in `sessionStorage`.
+  - [`useThrottle` and `useThrottleFn`](./useThrottle) &mdash; throttles a function. [demo](https://streamich.github.io/react-use/?path=/story/side-effects-usethrottle--demo)
+  - [`useTitle`](./useTitle) &mdash; sets title of the page.
+  - [`usePermission`](./usePermission) &mdash; query permission status for browser APIs.
+- [**Lifecycles**](./Lifecycles)
+  - [`useEffectOnce`](./useEffectOnce) &mdash; a modified [`useEffect`](https://reactjs.org/docs/hooks-reference.html#useeffect) hook that only runs once.
+  - [`useEvent`](./useEvent) &mdash; subscribe to events.
+  - [`useLifecycles`](./useLifecycles) &mdash; calls `mount` and `unmount` callbacks.
+  - [`useMountedState`](./useMountedState) and [`useUnmountPromise`](./useUnmountPromise) &mdash; track if component is mounted.
+  - [`usePromise`](./usePromise) &mdash; resolves promise only while component is mounted.
+  - [`useLogger`](./useLogger) &mdash; logs in console as component goes through life-cycles.
+  - [`useMount`](./useMount) &mdash; calls `mount` callbacks.
+  - [`useUnmount`](./useUnmount) &mdash; calls `unmount` callbacks.
+  - [`useUpdateEffect`](./useUpdateEffect) &mdash; run an `effect` only on updates.
+  - [`useIsomorphicLayoutEffect`](./useIsomorphicLayoutEffect) &mdash; `useLayoutEffect` that that works on server.
+  - [`useDeepCompareEffect`](./useDeepCompareEffect), [`useShallowCompareEffect`](./useShallowCompareEffect), and [`useCustomCompareEffect`](./useCustomCompareEffect)
+- [**State**](./State)
+
+  - [`createMemo`](./createMemo) &mdash; factory of memoized hooks.
+  - [`createReducer`](./createReducer) &mdash; factory of reducer hooks with custom middleware.
+  - [`createReducerContext`](./createReducerContext) and [`createStateContext`](./createStateContext) &mdash; factory of hooks for a sharing state between components.
+  - [`useDefault`](./useDefault) &mdash; returns the default value when state is `null` or `undefined`.
+  - [`useGetSet`](./useGetSet) &mdash; returns state getter `get()` instead of raw state.
+  - [`useGetSetState`](./useGetSetState) &mdash; as if [`useGetSet`](./useGetSet) and [`useSetState`](./useSetState) had a baby.
+  - [`useLatest`](./useLatest) &mdash; returns the latest state or props
+  - [`usePrevious`](./usePrevious) &mdash; returns the previous state or props. [demo](https://codesandbox.io/s/fervent-galileo-krgx6)
+  - [`usePreviousDistinct`](./usePreviousDistinct) &mdash; like `usePrevious` but with a predicate to determine if `previous` should update.
+  - [`useObservable`](./useObservable) &mdash; tracks latest value of an `Observable`.
+  - [`useRafState`](./useRafState) &mdash; creates `setState` method which only updates after `requestAnimationFrame`. [demo](https://streamich.github.io/react-use/?path=/story/state-userafstate--demo)
+  - [`useSetState`](./useSetState) &mdash; creates `setState` method which works like `this.setState`. [demo](https://codesandbox.io/s/n75zqn1xp0)
+  - [`useStateList`](./useStateList) &mdash; circularly iterates over an array. [demo](https://codesandbox.io/s/bold-dewdney-pjzkd)
+  - [`useToggle` and `useBoolean`](./useToggle) &mdash; tracks state of a boolean. [demo](https://codesandbox.io/s/focused-sammet-brw2d)
+  - [`useCounter` and `useNumber`](./useCounter) &mdash; tracks state of a number. [demo](https://streamich.github.io/react-use/?path=/story/state-usecounter--demo)
+  - [`useList`](./useList) ~and [`useUpsert`](./useUpsert)~ &mdash; tracks state of an array. [demo](https://codesandbox.io/s/wonderful-mahavira-1sm0w)
+  - [`useMap`](./useMap) &mdash; tracks state of an object. [demo](https://codesandbox.io/s/quirky-dewdney-gi161)
+  - [`useSet`](./useSet) &mdash; tracks state of a Set. [demo](https://codesandbox.io/s/bold-shtern-6jlgw)
+  - [`useQueue`](./useQueue) &mdash; implements simple queue.
+  - [`useStateValidator`](./useStateValidator) &mdash; tracks state of an object. [demo](https://streamich.github.io/react-use/?path=/story/state-usestatevalidator--demo)
+  - [`useStateWithHistory`](./useStateWithHistory) &mdash; stores previous state values and provides handles to travel through them. [demo](https://streamich.github.io/react-use/?path=/story/state-usestatewithhistory--demo)
+  - [`useMultiStateValidator`](./useMultiStateValidator) &mdash; alike the `useStateValidator`, but tracks multiple states at a time. [demo](https://streamich.github.io/react-use/?path=/story/state-usemultistatevalidator--demo)
+  - [`useMediatedState`](./useMediatedState) &mdash; like the regular `useState` but with mediation by custom function. [demo](https://streamich.github.io/react-use/?path=/story/state-usemediatedstate--demo)
+  - [`useFirstMountState`](./useFirstMountState) &mdash; check if current render is first. [demo](https://streamich.github.io/react-use/?path=/story/state-usefirstmountstate--demo)
+  - [`useRendersCount`](./useRendersCount) &mdash; count component renders. [demo](https://streamich.github.io/react-use/?path=/story/state-userenderscount--demo)
+  - [`createGlobalState`](./createGlobalState) &mdash; cross component shared state.[demo](https://streamich.github.io/react-use/?path=/story/state-createglobalstate--demo)
+  - [`useMethods`](./useMethods) &mdash; neat alternative to `useReducer`. [demo](https://streamich.github.io/react-use/?path=/story/state-usemethods--demo)
+
+  - [`useEnsuredForwardedRef`](./useEnsuredForwardedRef) and [`ensuredForwardRef`](./useEnsuredForwardedRef) &mdash; use a React.forwardedRef safely. [demo](https://streamich.github.io/react-use/?path=/story/state-useensuredforwardedref--demo)
