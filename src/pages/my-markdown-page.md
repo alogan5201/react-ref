@@ -1,3 +1,22 @@
-# My Markdown page
+```jsx live
+function Clock(props) {
+  const [date, setDate] = useState(new Date())
+  useEffect(() => {
+    var timerID = setInterval(() => tick(), 1000)
 
-This is a Markdown page
+    return function cleanup() {
+      clearInterval(timerID)
+    }
+  })
+
+  function tick() {
+    setDate(new Date())
+  }
+
+  return (
+    <div>
+      <h2>It is {date.toLocaleTimeString()}.</h2>
+    </div>
+  )
+}
+```
