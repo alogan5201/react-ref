@@ -8,8 +8,14 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  height: 90vh;
+  background-color: white !important;
+  color:#333 ;
 }
-
+body[data-theme="dark"] .heroBanner{
+  background-color:black !important;
+  color: white !important;
+}
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
