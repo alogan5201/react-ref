@@ -67,9 +67,15 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'react/hooks/useState',
             position: 'left',
-            label: 'Tutorial',
+            label: 'React',
+          },
+          {
+            label: 'Guides',
+            type: 'doc',
+            docId: 'getting-started',
+            position: 'left',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
