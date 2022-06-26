@@ -46,3 +46,7 @@
   crossorigin='anonymous'
 ></script>
 ```
+
+## Design Resources
+
+- [Boootstrap Design Resources](https://github.com/jqueryscript/Bootstrap-5-Design-Resources)

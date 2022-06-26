@@ -82,9 +82,9 @@ const config = {
             label: 'React',
           },
           {
-            label: 'Guides',
+            label: 'Javascript',
             type: 'doc',
-            docId: 'getting-started',
+            docId: 'javascript/js-overview',
             position: 'left',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
