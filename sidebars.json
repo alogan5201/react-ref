@@ -1,8 +1,0 @@
-{
-  "docs": {
-    "Hooks": ["hooks/useState"]
-  },
-  "api": {
-    "APIs": ["getting-started"]
-  }
-}
