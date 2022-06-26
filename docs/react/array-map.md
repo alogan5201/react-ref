@@ -1,3 +1,12 @@
+---
+id: array-map
+title: Array Map
+description: This helpful guide lays out the prerequisites for learning React Native, using these docs, and setting up your environment.
+---
+
+# Array Map
+
+```jsx
 import React, { useState, useEffect } from 'react'
 import Layout from '@theme/Layout'
 
@@ -68,3 +77,5 @@ export default function StarsPage() {
     </Layout>
   )
 }
+
+```

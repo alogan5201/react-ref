@@ -69,15 +69,15 @@ const config = {
             to: 'stars',
             // Only one of "to" or "href" should be used
             // href: 'https://www.facebook.com',
-            label: 'Stars',
+            label: '⭐',
             // Only one of "label" or "html" should be used
             // html: '<b>Introduction</b>'
-            position: 'left',
+            position: 'right',
             activeBaseRegex: 'docs/(next|v8)',
           },
           {
             type: 'doc',
-            docId: 'react/hooks/useState',
+            docId: 'react/array-map',
             position: 'left',
             label: 'React',
           },

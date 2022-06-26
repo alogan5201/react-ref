@@ -59,6 +59,11 @@ const sidebars = {
         },
       ],
     },
+    {
+      type: 'category',
+      label: 'Array Map',
+      items: ['react/array-map'],
+    },
   ],
 
   apiSidebar: [
